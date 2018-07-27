@@ -84,6 +84,11 @@ modify the commit information,not create the log
 
 search for the history of commit 
 
+# git reset
+
+恢复版本到某一个版本
+强制 git reset --force version 
+
 
 
 
