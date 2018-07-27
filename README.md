@@ -89,6 +89,18 @@ search for the history of commit
 恢复版本到某一个版本
 强制 git reset --force version 
 
+# git fetch
+
+get fetch origin master
+get latest version from remote branch,but won't auto merge
+
+
+git command:
+
+1.esc退出编辑状态
+2.i  进入编辑状态
+3.dd 删除一行
+4.u 撤销上一步操作
 
 
 
