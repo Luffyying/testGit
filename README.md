@@ -106,4 +106,25 @@ git command:
 4.u 撤销上一步操作
 
 
+# git stash
+
+save the current buffer like the stack
+
+场景:本应该在子分支上开发，结果忘记了切分支，在master上开发起来，之前很蠢，拷贝下代码保存，然后还原
+
+git stash
+
+git checkout master
+
+git stash apply
+
+如上可以帮你解决问题
+
+git stash list 查看所有入栈的buffer
+
+git stash pop 出栈
+
+git stash clear 清空
+
+
 
