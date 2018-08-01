@@ -88,6 +88,17 @@ search for the history of commit
 
 reflog可以看到HEAD的移动记录，假如之前误删了一个分支，则可通过git reflog看到移动HEAD的哈希值
 
+例如：在ying分支上把luffy分支删除了，执行如下命令，恢复luffy分支
+
+git reflog
+
+找到 748eebf HEAD@{2}:rebase:checkout luffy
+
+git checkout 748eebf
+
+git checkout -b luffy
+
+
 # git reset
 
 恢复版本到某一个版本
