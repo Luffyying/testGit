@@ -48,6 +48,8 @@ esc :wq
 
 git push --hard 
 
+（merge在有冲突的时候仅需要处理一次，但是rebase要处理多次,且最好是在开发完毕后，使用rebase,不让强推后，造成很多冲突，带来不便利）
+
 # merge use squash
 
 example:
@@ -84,6 +86,8 @@ modify the commit information,not create the log
 
 search for the history of commit 
 
+reflog可以看到HEAD的移动记录，假如之前误删了一个分支，则可通过git reflog看到移动HEAD的哈希值
+
 # git reset
 
 恢复版本到某一个版本
@@ -116,7 +120,7 @@ git stash
 
 git checkout master
 
-git stash apply
+git stash apply(git stash pop)
 
 如上可以帮你解决问题
 
