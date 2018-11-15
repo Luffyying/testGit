@@ -141,5 +141,25 @@ git stash pop 出栈
 
 git stash clear 清空
 
+some common vim command
+
+dd:删除光标所在的那一整行
+
+yy:复制光标所在的行
+
+i:插入：在当前光标所在处插入输入的文字，已存在的字符会向后退
+
+esc:退出编辑模式
+
+:wq 保存并退出
+
+:!wq 强制保存并退出
+
+u 恢复前一个动作
+
+
+
+                            
+
 
 
