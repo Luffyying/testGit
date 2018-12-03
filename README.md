@@ -141,6 +141,12 @@ git stash pop 出栈
 
 git stash clear 清空
 
+git log --pretty=oneline  将记录仅显示一行
+
+如果要回滚项目中某一个特定的文件：
+
+git checkout 097799215a -- search/hash_search.js
+
 some common vim command
 
 dd:删除光标所在的那一整行
