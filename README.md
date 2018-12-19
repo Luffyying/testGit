@@ -165,6 +165,13 @@ u 恢复前一个动作
 
 
 
+在项目中如果对于文件大小写敏感，配置:git config core.ignorecase false
+
+
+这样改成了驼峰就能识别改动了。
+
+
+
                             
 
 
