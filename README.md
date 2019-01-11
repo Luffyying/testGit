@@ -165,6 +165,13 @@ u 恢复前一个动作
 这样改成了驼峰就能识别改动了。
 
 
+git revert HEAD    撤销前一次 commit
+
+git revert HEAD^               撤销前前一次 commit
+
+git revert commit 指定版本号
+
+git reset 直接删除提交，与git revert的区别就是git revert是一次新的提交
 
                             
 
