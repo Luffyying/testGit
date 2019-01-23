@@ -174,6 +174,7 @@ git revert commit 指定版本号
 git reset 直接删除提交，与git revert的区别就是git revert是一次新的提交
 only a 
 test
+测试git reflog
 
                             
 
