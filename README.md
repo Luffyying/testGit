@@ -141,5 +141,39 @@ git stash pop 出栈
 
 git stash clear 清空
 
+some common vim command
+
+dd:删除光标所在的那一整行
+
+yy:复制光标所在的行
+
+i:插入：在当前光标所在处插入输入的文字，已存在的字符会向后退
+
+esc:退出编辑模式
+
+:wq 保存并退出
+
+:!wq 强制保存并退出
+
+u 恢复前一个动作
+
+
+
+在项目中如果对于文件大小写敏感，配置:git config core.ignorecase false
+
+
+这样改成了驼峰就能识别改动了。
+
+
+git revert HEAD    撤销前一次 commit
+
+git revert HEAD^               撤销前前一次 commit
+
+git revert commit 指定版本号
+
+git reset 直接删除提交，与git revert的区别就是git revert是一次新的提交
+
+                            
+
 
 
