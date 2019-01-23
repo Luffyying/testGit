@@ -172,6 +172,8 @@ git revert HEAD^               撤销前前一次 commit
 git revert commit 指定版本号
 
 git reset 直接删除提交，与git revert的区别就是git revert是一次新的提交
+only a 
+test
 
                             
 
