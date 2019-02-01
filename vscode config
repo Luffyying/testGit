@@ -1,0 +1,80 @@
+{
+  "workbench.welcome.enabled": false,
+  "window.zoomLevel": 2,
+  "window.menuBarVisibility": "toggle",
+  "extensions.ignoreRecommendations": false,
+  "window.zoomLevel": 1,
+  "extensions.ignoreRecommendations": true,
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "vetur.validation.template": false,
+  "eslint.options": {
+    "plugins": ["html"]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "html"
+  ],
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.disableLanguages": [],
+  "prettier.eslintIntegration": true,
+
+  "eslint.options": {
+    "plugins": ["html"]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "html"
+  ],
+  "eslint.autoFixOnSave": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "wrap_attributes": "force-aligned"
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "gitlens.historyExplorer.enabled": false,
+  "files.associations": {
+    "*.html": "html"
+  },
+  "editor.tabCompletion": "on",
+  "prettier.disableLanguages": [],
+  "emmet.includeLanguages": {},
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "breadcrumbs.enabled": true,
+  "search.location": "panel",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "eslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true,
+  "editor.acceptSuggestionOnEnter": "off",
+
+  // An array of glob keys to ignore when searching.
+  "relativePath.ignore": [
+    "**/node_modules/**",
+    "**/*.py",
+    "**/*.pyc",
+    "**/dist/**",
+    "**/static/3rd/**",
+    "**/static/lib/**"
+  ],
+
+  // Excludes the extension from the relative path url (Useful for systemjs imports).
+  "relativePath.removeExtension": false
+}
